@@ -12,6 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+ifeq (metallium_tomato,$(TARGET_PRODUCT))
+
 # Inherit telephony common stuff
 $(call inherit-product, vendor/metallium/configs/telephony.mk)
 
